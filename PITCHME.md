@@ -12,7 +12,7 @@ Sie basiert auf dem .net Framework und wird als Teil des Windows Management Fram
 
 Seit August 2016 ist Powershell **Core** auch unter Linux und Mac verfügbar
 
----?code=src/examples/simple-script.ps1&lang=powershell&Title=Ein einfaches Powershell Programm
+---?code=src/examples/simple-script.ps1&lang=powershell&title=Ein einfaches Powershell Programm
 
 ---
 
