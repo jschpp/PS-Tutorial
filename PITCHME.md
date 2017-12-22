@@ -15,6 +15,7 @@ Seit August 2016 ist Powershell **Core** auch unter Linux und Mac verfügbar
 ---?code=src/examples/simple-script.ps1&lang=powershell&title=Ein einfaches Powershell Programm
 
 Ausgabe:
+
 ```console
 Hello World
 Lauf 1
@@ -62,6 +63,7 @@ Get-Service
 * Können sowohl namentlich als auch über ihre Position verwendet werden
 
 Beispiel
+
 ```ps
 Get-Help Get-Service
 Get-Help -Name Get-Service
