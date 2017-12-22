@@ -12,3 +12,6 @@ Sie basiert auf dem .net Framework und wird als Teil des Windows Management Fram
 
 Seit August 2016 ist Powershell **Core** auch unter Linux und Mac verfügbar
 
+## Quellen
+
+Powershell Verfügbarkeit [https://blogs.msdn.microsoft.com/powershell/2016/08/18/powershell-on-linux-and-open-source-2/](https://blogs.msdn.microsoft.com/powershell/2016/08/18/powershell-on-linux-and-open-source-2/)
