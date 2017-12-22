@@ -55,6 +55,22 @@ Get-Service
 
 ---
 
+# Parameter
+
+* Sowohl bei Funktionen als auch bei cmdlets vorhanden
+* Können optional sein
+* Können sowohl namentlich als auch über ihre Position verwendet werden
+
+Beispiel
+```ps
+Get-Help Get-Service
+Get-Help -Name Get-Service
+Get-Help Get-Service -online
+Get-Help -Name Get-Service -full
+```
+
+---
+
 ## Quellen
 
 Powershell Verfügbarkeit [https://blogs.msdn.microsoft.com/powershell/2016/08/18/powershell-on-linux-and-open-source-2/](https://blogs.msdn.microsoft.com/powershell/2016/08/18/powershell-on-linux-and-open-source-2/)
