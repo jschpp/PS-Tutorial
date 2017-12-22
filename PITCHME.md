@@ -14,6 +14,15 @@ Seit August 2016 ist Powershell **Core** auch unter Linux und Mac verfügbar
 
 ---?code=src/examples/simple-script.ps1&lang=powershell&title=Ein einfaches Powershell Programm
 
+Ausgabe:
+```
+Hello World
+Lauf 1
+Lauf 2
+Lauf 3
+Lauf 4
+Lauf 5
+```
 ---
 
 ## Quellen
