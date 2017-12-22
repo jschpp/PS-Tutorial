@@ -92,6 +92,14 @@ Format-Table
 
 ---
 
+### Function (Funktion)
+
+* Modularer wiederverwendbarer Block Code
+* Arbeitet ähnlich wie ein cmdlet ist aber in Powershell Script geschrieben
+* Können in ein Module ausgelagert werden
+
+---?code=src/examples/simple-function.ps1&lang=powershell&title=Ein einfache Beispiel Funktion
+
 ---
 
 ## Quellen
