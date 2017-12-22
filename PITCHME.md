@@ -92,7 +92,7 @@ Format-Table
 
 ---
 
-### Function (Funktion)
+### Function
 
 * Modularer wiederverwendbarer Block Code
 * Arbeitet ähnlich wie ein cmdlet ist aber in Powershell Script geschrieben
