@@ -7,7 +7,7 @@
 theme : simple
 theme-override : assets/css/PITCHME.css
 highlight : atom-one-light
-logo : assets/image/logo.png
+logo : assets/image/GU-Logo-weiss.png
 transition : none
 published : true
-footnote : "GitPitch [ White ] Presentation Template"
+footnote : "Presentation &copy; Johannes Schöpp - MIT License"
