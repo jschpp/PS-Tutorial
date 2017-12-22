@@ -102,6 +102,21 @@ Format-Table
 
 ---
 
+### Variable
+
+* Da um Dingen einen Namen zu geben
+* Beginnt mit einem $ Zeichen
+* Sollten camelCase benannt werden
+* Sollten (Wie in jeder anderen Sprache auch) einen _aussagekräftigen_ Namen haben
+
+Beispiele:
+
+```ps
+$a = 1
+$serviceNames = Get-Service | Select-Object Name
+```
+
+---
 ## Quellen
 
 Powershell Verfügbarkeit [https://blogs.msdn.microsoft.com/powershell/2016/08/18/powershell-on-linux-and-open-source-2/](https://blogs.msdn.microsoft.com/powershell/2016/08/18/powershell-on-linux-and-open-source-2/)
