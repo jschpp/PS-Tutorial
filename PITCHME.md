@@ -73,6 +73,24 @@ Get-Help -Name Get-Service -full
 
 ---
 
+### Alias
+
+Ein Alias ist ein anderer Name für ein Funktion oder ein cmdlet
+
+Beispiele:
+
+```ps
+man
+Get-Help
+
+ps
+Get-Process
+
+ft
+Format-Table
+```
+
+---
 
 ---
 
