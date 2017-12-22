@@ -39,7 +39,7 @@ Lauf 5
 
 ---
 
-# Cmdlet
+### Cmdlet
 
 * Wird command-let ausgesprochen
 * Sind in .net kompilierte Befehle
@@ -55,7 +55,7 @@ Get-Service
 
 ---
 
-# Parameter
+### Parameter
 
 * Sowohl bei Funktionen als auch bei cmdlets vorhanden
 * Können optional sein
