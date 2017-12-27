@@ -194,6 +194,20 @@ Remove-Module # Enlädt ein Modul
 
 ---
 
+#### Zuweisungs Operatoren
+
+* Werden verwendet um Variablen neue Werte zuzuweisen
+* `=`, `+=`, `-=`, `*=`, `/=`, `%=`
+* Ebenso selbsterklärend wie Arithmetische Operatoren
+
+```ps
+$a = 1       # $a = 1
+$a += 1      # $a = 2
+$s = "Test"  # $s = "Test"
+$s *= 2      # $s = "TestTest"
+```
+
+---
 ## Quellen
 
 Zu finden unter
