@@ -141,6 +141,17 @@ Remove-Module # Enlädt ein Modul
 
 ---
 
+### Snapin
+
+* Ähnlich wie ein Modul
+* Liegen kompiliert vor
+* Enthalten cmdlets
+* Werden in der Regel mit einem Produkt (Exchange, Veeam, ...) mitgeliefert
+* Müssen installiert werden
+* Sind die "alte" Variante um Funktionen zu bündeln
+
+---
+
 ## Quellen
 
 Powershell Verfügbarkeit [https://blogs.msdn.microsoft.com/powershell/2016/08/18/powershell-on-linux-and-open-source-2/](https://blogs.msdn.microsoft.com/powershell/2016/08/18/powershell-on-linux-and-open-source-2/)
