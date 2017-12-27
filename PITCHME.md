@@ -158,6 +158,6 @@ Remove-Module # Enlädt ein Modul
 * Daten werden wie ein Laufwerk angezeigt
 * Sollen ermöglichen, dass Daten auf eine konsistente Art verfügbare gemacht werden
 
----?code=src/examples/simple-function.ps1&lang=powershell&title=Provider Beispiele
+---?code=src/examples/provider.ps1&lang=powershell&title=Provider Beispiele
 
 ---?include=sources.md
