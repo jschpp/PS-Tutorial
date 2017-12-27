@@ -171,7 +171,6 @@ Remove-Module # Enlädt ein Modul
   * Vergleichs
   * Logische
   * Umleitungs
-  * Typen
   * Spezielle
 
 ---
@@ -208,6 +207,22 @@ $s *= 2      # $s = "TestTest"
 ```
 
 ---
+
+#### Vergleichs Operatoren
+
+* Vergleichen Dinge & mehr
+* Werden in verschiedene Klassen unterteilt
+  * Equality
+  * Matching
+  * Containment
+  * Replacement
+  * Type
+
+Note:
+Test
+
+---
+
 ## Quellen
 
 Zu finden unter
