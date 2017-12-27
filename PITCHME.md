@@ -227,6 +227,25 @@ Zu den Typen Replacement und Matching werde ich nicht viel sagen, da das für de
 
 ---
 
+##### Wichtige Vergleichs Operatoren
+
+```ps
+$a -eq $b # $a == $b
+$a -ne $b # $a != $b
+$a -ge $b # $a >= $b
+$a -lt $b # $a <  $b
+"Test" -like "Tes*" # True
+"Test" -notlike "Test*" # False
+@("T", "e", "s", "t") -contains "T" # True
+1 -is [int] # True
+```
+
+Note:
+Der -ge Operator hat noch einen -gt ebenso wie der -gt noch einen -ge Operator hat
+Es gibt zum -contains noch die Operatoren -in, -notin, -notcontains
+
+---
+
 ## Quellen
 
 Zu finden unter
