@@ -152,8 +152,5 @@ Remove-Module # Enlädt ein Modul
 
 ---
 
-## Quellen
 
-Powershell Verfügbarkeit [https://blogs.msdn.microsoft.com/powershell/2016/08/18/powershell-on-linux-and-open-source-2/](https://blogs.msdn.microsoft.com/powershell/2016/08/18/powershell-on-linux-and-open-source-2/)
-
-Gültige Powershell Verben: [https://msdn.microsoft.com/en-us/library/ms714428%28v=vs.85%29.aspx?f=255&MSPPError=-2147217396](https://msdn.microsoft.com/en-us/library/ms714428%28v=vs.85%29.aspx?f=255&MSPPError=-2147217396)
+---?include=sources.md
