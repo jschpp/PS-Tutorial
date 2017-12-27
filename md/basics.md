@@ -245,4 +245,4 @@ Es gibt zum -contains noch die Operatoren -in, -notin, -notcontains
 * `>`, `>>`, `2>`, `2>>`, `2>&1`
 * Leiten die Ausgabe in eine Datei statt sie in der Shell anzuzeigen
 
----?include=md/basics-redirectiontable.md
+---?include=md/basics_redirectiontable.md
