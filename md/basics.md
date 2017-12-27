@@ -263,3 +263,22 @@ Es gibt zum -contains noch die Operatoren -in, -notin, -notcontains
 | `2>`     | Sendet die Ausgabe des Streams 2 an eine Datei   | Get-Process none 2> Errors.txt       |
 | `2>>`    | Hängt die Ausgabe des Streams 2 an eine Datei an | Get-Process none 2>> Save-Errors.txt |
 | `2>&1`   | Sendet die Ausgabe des Streams 1 & 2 an Stream 1 | Get-Process none, Powershell 2>&1    |
+
+---
+
+#### Spezielle Operatoren
+
+* Alles andere
+* Wichtige Operatoren:
+  * `|` Pipe Operator
+  * `&` Call Operator
+  * `[ ]` Cast Operator
+  * `.` "Dot Source" Operator
+
+```ps
+$a | ft # Gibt die Ausgabe von $a an ft weiter
+$a = "Get-Process"
+& $a # Ruft Get-Process auf
+[int]"2" # Wandelt den String "2" in eine Zahl um
+```
+
