@@ -245,6 +245,4 @@ Es gibt zum -contains noch die Operatoren -in, -notin, -notcontains
 * `>`, `>>`, `2>`, `2>>`, `2>&1`
 * Leiten die Ausgabe in eine Datei statt sie in der Shell anzuzeigen
 
-| Operator | Beschreibung | Beispiel |
-|---|---|---|
-| `>` | Sendet die Ausgabe an eine Datei | Get-Process > Process.txt |
+---?include=md/basics-redirectiontable.md
