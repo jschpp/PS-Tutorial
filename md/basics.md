@@ -236,3 +236,15 @@ Es gibt zum -contains noch die Operatoren -in, -notin, -notcontains
 | 0 | 1 | 0 | 1 | 1 |
 | 1 | 0 | 0 | 1 | 1 |
 | 1 | 1 | 1 | 1 | 0 |
+
+---
+
+#### Umleitungsoperatoren
+
+* Bekannt aus dem `cmd`
+* `>`, `>>`, `2>`, `2>>`, `2>&1`
+* Leiten die Ausgabe in eine Datei statt sie in der Shell anzuzeigen
+
+| Operator | Beschreibung | Beispiel |
+|---|---|---|
+| `>` | Sendet die Ausgabe an eine Datei | Get-Process > Process.txt |
