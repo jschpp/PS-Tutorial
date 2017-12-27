@@ -152,5 +152,10 @@ Remove-Module # Enlädt ein Modul
 
 ---
 
+### Provider
+
+* Stellen eine Datenschnittstelle dar
+* Daten werden wie ein Laufwerk angezeigt
+* Sollen ermöglichen, dass Daten auf eine konsistente Art verfügbare gemacht werden
 
 ---?include=sources.md
