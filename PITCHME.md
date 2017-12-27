@@ -223,7 +223,7 @@ $s *= 2      # $s = "TestTest"
   * Type
 
 Note:
-Test
+Zu den Typen Replacement und Matching werde ich nicht viel sagen, da das für den Anfang zu weit führt
 
 ---
 
