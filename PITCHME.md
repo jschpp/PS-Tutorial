@@ -247,6 +247,26 @@ Es gibt zum -contains noch die Operatoren -in, -notin, -notcontains
 
 ---
 
+#### Logische Operatoren
+
+* Boolesche Operatoren
+* `-and`, `-or`, `-xor`, `-not`, `!`
+* Vor allem interressant in `if` Abfragen
+* Können auch auf nicht Boolesche Werte angewandt werden
+* `!` und `-not` machen das selbe
+
+---
+
+##### Wahrheitstabelle
+| `$a` | `$b` | `-and` | `-or` | `-xor` |
+|:----:|:----:|:------:|:-----:|:------:|
+| 0 | 0 | 0 | 0 | 0 |
+| 0 | 1 | 0 | 1 | 1 |
+| 1 | 0 | 0 | 1 | 1 |
+| 1 | 1 | 1 | 1 | 0 |
+
+---
+
 ## Quellen
 
 Zu finden unter
