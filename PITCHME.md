@@ -242,6 +242,7 @@ $a -lt $b # $a <  $b
 
 Note:
 Der -ge Operator hat noch einen -gt ebenso wie der -gt noch einen -ge Operator hat
+
 Es gibt zum -contains noch die Operatoren -in, -notin, -notcontains
 
 ---
