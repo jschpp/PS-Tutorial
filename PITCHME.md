@@ -174,4 +174,22 @@ Remove-Module # Enlädt ein Modul
   * Typen
   * Spezielle
 
+---
+
+#### Arithmetische Operatoren
+
+* Werden verwendet um Dinge zu berechnen
+* `+`,`-`,`*`,`/`,`%`
+* Selbsterklärend in den meisten Fällen
+* `%` ist der Modulo Operator (Teilen mit Rest)
+* Funktionieren nicht nur mit Zahlen.
+
+```ps
+"Test" + "2" # "Test2"
+"Test" - "2" # Fehler
+"Test" * "2" # "TestTest"
+"Test" / "2" # Fehler
+"Test" % "2" # Fehler
+```
+
 ---?include=sources.md
