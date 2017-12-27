@@ -115,6 +115,9 @@ Beispiele:
 ```ps
 $a = 1
 $serviceNames = Get-Service | Select-Object Name
+$a = @(1, 2, 3) # Liste mit den Werten 1,2,3
+$a = @{a = 1; b = 2} # Hash Tabelle
+$a.b # gibt 2 zurück
 ```
 
 ---
