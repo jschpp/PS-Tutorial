@@ -192,4 +192,10 @@ Remove-Module # Enlädt ein Modul
 "Test" % "2" # Fehler
 ```
 
----?include=sources.md
+---
+
+## Quellen
+
+Zu finden unter
+
+https://github.com/jschpp/PS-Course/sources.md
