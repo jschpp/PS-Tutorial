@@ -1,4 +1,3 @@
-
 ## Grundbegriffe
 
 * Cmdlet
@@ -230,6 +229,7 @@ Es gibt zum -contains noch die Operatoren -in, -notin, -notcontains
 ---
 
 ##### Wahrheitstabelle
+
 | `$a` | `$b` | `-and` | `-or` | `-xor` |
 |:----:|:----:|:------:|:-----:|:------:|
 | 0 | 0 | 0 | 0 | 0 |
