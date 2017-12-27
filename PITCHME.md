@@ -197,6 +197,7 @@ Remove-Module # Enlädt ein Modul
 
 * Werden verwendet um Variablen neue Werte zuzuweisen
 * `=`, `+=`, `-=`, `*=`, `/=`, `%=`
+* `$a += x` entspricht `$a = $a + x`
 * Ebenso selbsterklärend wie Arithmetische Operatoren
 
 ```ps
