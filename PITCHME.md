@@ -122,7 +122,12 @@ $serviceNames = Get-Service | Select-Object Name
 ### Module
 
 * Eine Sammlung von Powershell Befehlen
-* Können als Binär Dateien sein
+* Häufig an Windows Produkte oder Features gebunden
+* Können als Binär Datei vorliegen
+* Sind gut um Funktions Sammlungen nach Funktionalität gebündelt abzulegen
+* Werden seit Powershell v4 automatisch geladen
+
+---
 
 ---
 
