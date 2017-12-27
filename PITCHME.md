@@ -179,7 +179,7 @@ Remove-Module # Enlädt ein Modul
 #### Arithmetische Operatoren
 
 * Werden verwendet um Dinge zu berechnen
-* `+`,`-`,`*`,`/`,`%`
+* `+`, `-`, `*`, `/`, `%`
 * Selbsterklärend in den meisten Fällen
 * `%` ist der Modulo Operator (Teilen mit Rest)
 * Funktionieren nicht nur mit Zahlen.
