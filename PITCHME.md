@@ -160,4 +160,18 @@ Remove-Module # Enlädt ein Modul
 
 ---?code=src/examples/provider.ps1&lang=powershell&title=Provider Beispiele
 
+---
+
+### Operators
+
+* Machen Dinge :)
+* Verschiedene Arten von Operatoren
+  * Arithmetische
+  * Zuweisungs
+  * Vergleichs
+  * Logische
+  * Umleitungs
+  * Typen
+  * Spezielle
+
 ---?include=sources.md

@@ -7,3 +7,5 @@ Gültige Powershell Verben: [https://msdn.microsoft.com/en-us/library/ms714428%2
 Über Snapins: [https://blog.codeinside.eu/2013/03/08/powershell-snapins-vs-modules/](https://blog.codeinside.eu/2013/03/08/powershell-snapins-vs-modules/)
 
 Über Provider: [https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_providers?view=powershell-5.1](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_providers?view=powershell-5.1)
+
+Über Operatoren: [https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_operators?view=powershell-5.1](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_operators?view=powershell-5.1)
