@@ -282,3 +282,11 @@ $a = "Get-Process"
 [int]"2" # Wandelt den String "2" in eine Zahl um
 ```
 
+---
+
+##### "Dot Source" Operator
+
+* Ruft ein Skript im aktuellen Kontext auf
+* Wird von einem Leerzeichen gefolgt
+  * `. ScriptName.ps1`
+* Alle Funktionen, Aliase und Variablen die durch das Skript erstellt werden existieren danach auch im aktuellen Kontext
