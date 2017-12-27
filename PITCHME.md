@@ -198,4 +198,4 @@ Remove-Module # Enlädt ein Modul
 
 Zu finden unter
 
-https://github.com/jschpp/PS-Course/sources.md
+[https://github.com/jschpp/PS-Tutorial/blob/master/sources.md](https://github.com/jschpp/PS-Tutorial/blob/master/sources.md)
