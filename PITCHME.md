@@ -132,9 +132,9 @@ $serviceNames = Get-Service | Select-Object Name
 #### Wichtige Befehle für Module
 
 ```ps
-Get-Module # Zeigt alle aktuell geladen Module an
-Get-Module -ListAvailable # Zeigt alle verfügbaren Module an
-Get-Command -Module Name # Zeigt alle Befehle des Moduls an
+Get-Module # Zeigt alle aktuell geladen Module
+Get-Module -ListAvailable # Zeigt alle verfügbaren Module
+Get-Command -Module Name # Zeigt alle Befehle des Moduls
 Import-Module Name # Lädt ein Modul
 Remove-Module # Enlädt ein Modul
 ```
