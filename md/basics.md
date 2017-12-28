@@ -212,9 +212,9 @@ $a -lt $b # $a <  $b
 ```
 
 Note:
-Der -ge Operator hat noch einen -gt ebenso wie der -gt noch einen -ge Operator hat
+Der `-ge` Operator hat noch einen `-gt` ebenso wie der `-gt` noch einen `-ge` Operator hat
 
-Es gibt zum -contains noch die Operatoren -in, -notin, -notcontains
+Es gibt zum `-contains` noch die Operatoren `-in`, `-notin`, `-notcontains`
 
 ---
 
@@ -230,12 +230,12 @@ Es gibt zum -contains noch die Operatoren -in, -notin, -notcontains
 
 ##### Wahrheitstabelle
 
-| `$a` | `$b` | `-and` | `-or` | `-xor` |
-|:----:|:----:|:------:|:-----:|:------:|
-| 0 | 0 | 0 | 0 | 0 |
-| 0 | 1 | 0 | 1 | 1 |
-| 1 | 0 | 0 | 1 | 1 |
-| 1 | 1 | 1 | 1 | 0 |
+| `$a`  | `$b`  | `-and` | `-or` | `-xor` |
+| :---: | :---: | :----: | :---: | :----: |
+| 0     | 0     | 0      | 0     | 0      |
+| 0     | 1     | 0      | 1     | 1      |
+| 1     | 0     | 0      | 1     | 1      |
+| 1     | 1     | 1      | 1     | 0      |
 
 ---
 
@@ -249,20 +249,20 @@ Es gibt zum -contains noch die Operatoren -in, -notin, -notcontains
 
 ##### Weiterleitungs-Operatoren Tabelle
 
-| Operator | Beschreibung                                     | Beispiel                             |
-| -------- | ------------------------------------------------ | ------------------------------------ |
-| `>`      | Sendet die Ausgabe an eine Datei                 | Get-Process > Process.txt            |
-| `>>`     | Hängt die Ausgabe an eine Datei an               | dir *.ps1 >> Scripts.txt             |
+| Operator | Beschreibung                       | Beispiel                    |
+| -------- | ---------------------------------- | --------------------------- |
+| `>`      | Sendet die Ausgabe an eine Datei   | `Get-Process > Process.txt` |
+| `>>`     | Hängt die Ausgabe an eine Datei an | `dir *.ps1 >> Scripts.txt`  |
 
 ---
 
 ##### Weiterleitungs-Operatoren Tabelle (cont.)
 
-| Operator | Beschreibung                                     | Beispiel                             |
-| -------- | ------------------------------------------------ | ------------------------------------ |
-| `2>`     | Sendet die Ausgabe des Streams 2 an eine Datei   | Get-Process none 2> Errors.txt       |
-| `2>>`    | Hängt die Ausgabe des Streams 2 an eine Datei an | Get-Process none 2>> Save-Errors.txt |
-| `2>&1`   | Sendet die Ausgabe des Streams 1 & 2 an Stream 1 | Get-Process none, Powershell 2>&1    |
+| Operator | Beschreibung                                     | Beispiel                               |
+| -------- | ------------------------------------------------ | -------------------------------------- |
+| `2>`     | Sendet die Ausgabe des Streams 2 an eine Datei   | `Get-Process none 2> Errors.txt`       |
+| `2>>`    | Hängt die Ausgabe des Streams 2 an eine Datei an | `Get-Process none 2>> Save-Errors.txt` |
+| `2>&1`   | Sendet die Ausgabe des Streams 1 & 2 an Stream 1 | `Get-Process none, Powershell 2>&1`    |
 
 ---
 
@@ -289,4 +289,4 @@ $a = "Get-Process"
 * Ruft ein Skript im aktuellen Kontext auf
 * Wird von einem Leerzeichen gefolgt
   * `. ScriptName.ps1`
-* Alle Funktionen, Aliase und Variablen die durch das Skript erstellt werden existieren danach auch im aktuellen Kontext
+* Alle Funktionen, Alias und Variablen die durch das Skript erstellt werden existieren danach auch im aktuellen Kontext
