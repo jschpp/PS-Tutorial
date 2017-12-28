@@ -6,4 +6,6 @@
 
 ---?include=md/basics.md
 
+---?include=md/exercise.md
+
 ---?include=md/sources.md
