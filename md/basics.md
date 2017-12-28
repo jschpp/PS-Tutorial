@@ -239,6 +239,26 @@ Es gibt zum `-contains` noch die Operatoren `-in`, `-notin`, `-notcontains`
 
 ---
 
+#### Logische Operatoren 2
+
+Binär Operatoren
+
+* `-bAND`, `-bOR`, `-bXOR`, `-bNOT`
+* Werden direkt auf binäre (oder andere) Zahlen angewandt
+* Nützlich für so genanntes "Masking"
+
+```ps
+$bitMask = 0x202 # 0b00000000000000000000001000000010 oder 514
+$user = Get-ADUser test -Properties userAccountControl
+$user.userAccountControl -bAND $bitmask # True falls normaler Nutzer
+                                        # mit deaktiviertem Account
+```
+
+Note:
+Microsoft ist sich in der Hilfe auch nicht einig ob die Binären Operatoren zu den Vergleichen oder Logischen Operatoren gehören.
+
+---
+
 #### Umleitungs-Operatoren
 
 * Bekannt aus dem `cmd`
