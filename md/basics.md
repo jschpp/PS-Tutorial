@@ -79,7 +79,7 @@ Format-Table
 * Werden verwendet um Dingen einen Namen zu geben
 * Beginnen mit einem $ Zeichen
 * Sollten camelCase benannt werden
-* Sollten (Wie in jeder anderen Sprache auch) einen _aussagekräftigen_ Namen haben
+* Sollten einen _aussagekräftigen_ Namen haben
 
 Beispiele:
 
@@ -248,10 +248,10 @@ Binär Operatoren
 * Nützlich für so genanntes "Masking"
 
 ```ps
-$bitMask = 0x202 # 0b00000000000000000000001000000010 oder 514
+$bitMask = 0x202 # 0b1000000010 oder 514
 $user = Get-ADUser test -Properties userAccountControl
-$user.userAccountControl -bAND $bitmask # True falls normaler Nutzer
-                                        # mit deaktiviertem Account
+$user.userAccountControl -bAND $bitmask # True falls
+        #normaler Nutzer mit deaktiviertem Account
 ```
 
 Note:
