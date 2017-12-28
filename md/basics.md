@@ -18,7 +18,7 @@
 * Sind in .net kompilierte Befehle
 * Folgt einer Verb-Nomen Namensgebung
   * Gültige Verben finden sich im Netz (Siehe Quellen)
-* Das Nomen bezieht sich aus das zu bearbeitene "Ding" (z.B. Service, ADUser)
+* Das Nomen bezieht sich aus das zu bearbeitende "Ding" (z.B. Service, ADUser)
 
 Beispiel:
 
@@ -98,7 +98,7 @@ $a.b # gibt 2 zurück
 * Eine Sammlung von Powershell Befehlen
 * Häufig an Windows Produkte oder Features gebunden
 * Können als Binär Datei vorliegen
-* Sind gut um Funktions Sammlungen nach Funktionalität gebündelt abzulegen
+* Sind gut um Funktions-Sammlungen nach Funktionalität gebündelt abzulegen
 * Werden seit Powershell v4 automatisch geladen
 
 ---
@@ -140,11 +140,11 @@ Remove-Module # Enlädt ein Modul
 
 * Machen Dinge :)
 * Verschiedene Arten von Operatoren
-  * Arithmetische
-  * Zuweisungs
-  * Vergleichs
+  * Arithmetisch
+  * Zuweisung
+  * Vergleich
   * Logische
-  * Umleitungs
+  * Umleitung
   * Spezielle
 
 ---
@@ -167,7 +167,7 @@ Remove-Module # Enlädt ein Modul
 
 ---
 
-#### Zuweisungs Operatoren
+#### Zuweisungs-Operatoren
 
 * Werden verwendet um Variablen neue Werte zuzuweisen
 * `=`, `+=`, `-=`, `*=`, `/=`, `%=`
@@ -183,7 +183,7 @@ $s *= 2      # $s = "TestTest"
 
 ---
 
-#### Vergleichs Operatoren
+#### Vergleichs-Operatoren
 
 * Vergleichen Dinge & mehr
 * Werden in verschiedene Klassen unterteilt
@@ -222,7 +222,7 @@ Es gibt zum -contains noch die Operatoren -in, -notin, -notcontains
 
 * Boolesche Operatoren
 * `-and`, `-or`, `-xor`, `-not`, `!`
-* Vor allem interressant in `if` Abfragen
+* Vor allem interessant in `if` Abfragen
 * Können auch auf nicht Boolesche Werte angewandt werden
 * `!` und `-not` machen das selbe
 
@@ -239,7 +239,7 @@ Es gibt zum -contains noch die Operatoren -in, -notin, -notcontains
 
 ---
 
-#### Umleitungsoperatoren
+#### Umleitungs-Operatoren
 
 * Bekannt aus dem `cmd`
 * `>`, `>>`, `2>`, `2>>`, `2>&1`
@@ -247,7 +247,7 @@ Es gibt zum -contains noch die Operatoren -in, -notin, -notcontains
 
 ---
 
-##### Weiterleitungsoperatoren Tabelle
+##### Weiterleitungs-Operatoren Tabelle
 
 | Operator | Beschreibung                                     | Beispiel                             |
 | -------- | ------------------------------------------------ | ------------------------------------ |
@@ -256,7 +256,7 @@ Es gibt zum -contains noch die Operatoren -in, -notin, -notcontains
 
 ---
 
-##### Weiterleitungsoperatoren Tabelle (cont.)
+##### Weiterleitungs-Operatoren Tabelle (cont.)
 
 | Operator | Beschreibung                                     | Beispiel                             |
 | -------- | ------------------------------------------------ | ------------------------------------ |

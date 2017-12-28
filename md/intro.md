@@ -4,7 +4,7 @@ Powershell ist eine von Microsoft entwickelte Scriptsprache zum Management von W
 
 Sie basiert auf dem .net Framework und wird als Teil des Windows Management Frameworks ausgeliefert.
 
-Seit August 2016 ist Powershell **Core** auch unter Linux und Mac verfügbar
+Seit August 2016 ist Powershell **Core** unter Linux und Mac verfügbar
 
 ---?code=src/examples/simple-script.ps1&lang=powershell&title=Ein einfaches Powershell Programm
 
