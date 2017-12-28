@@ -211,6 +211,11 @@ $a -lt $b # $a <  $b
 1 -is [int] # True
 ```
 
+@[1-4]
+@[5-6]
+@[7]
+@[8]
+
 Note:
 Der `-ge` Operator hat noch einen `-gt` ebenso wie der `-gt` noch einen `-ge` Operator hat
 
