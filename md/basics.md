@@ -18,7 +18,7 @@
 * Sind in .net kompilierte Befehle
 * Folgt einer Verb-Nomen Namensgebung
   * Gültige Verben finden sich im Netz (Siehe Quellen)
-* Das Nomen bezieht sich aus das zu bearbeitende "Ding" (z.B. Service, ADUser)
+* Das Nomen bezieht sich auf das zu bearbeitende "Ding" (z.B. Service, ADUser)
 
 Beispiel:
 
@@ -76,8 +76,8 @@ Format-Table
 
 ### Variable
 
-* Da um Dingen einen Namen zu geben
-* Beginnt mit einem $ Zeichen
+* Werden verwendet um Dingen einen Namen zu geben
+* Beginnen mit einem $ Zeichen
 * Sollten camelCase benannt werden
 * Sollten (Wie in jeder anderen Sprache auch) einen _aussagekräftigen_ Namen haben
 
@@ -97,7 +97,7 @@ $a.b # gibt 2 zurück
 
 * Eine Sammlung von Powershell Befehlen
 * Häufig an Windows Produkte oder Features gebunden
-* Können als Binär Datei vorliegen
+* Können als Binärdatei vorliegen
 * Sind gut um Funktions-Sammlungen nach Funktionalität gebündelt abzulegen
 * Werden seit Powershell v4 automatisch geladen
 
@@ -130,7 +130,7 @@ Remove-Module # Enlädt ein Modul
 
 * Stellen eine Datenschnittstelle dar
 * Daten werden wie ein Laufwerk angezeigt
-* Sollen ermöglichen, dass Daten auf eine konsistente Art verfügbare gemacht werden
+* Sollen ermöglichen, dass Daten auf eine konsistente Art verfügbar gemacht werden
 
 ---?code=src/examples/provider.ps1&lang=powershell&title=Provider Beispiele
 
@@ -143,7 +143,7 @@ Remove-Module # Enlädt ein Modul
   * Arithmetisch
   * Zuweisung
   * Vergleich
-  * Logische
+  * Logisch
   * Umleitung
   * Spezielle
 
