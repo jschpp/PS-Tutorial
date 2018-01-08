@@ -21,6 +21,32 @@ Lauf 5
 
 ---
 
+### Was ist das .net Framework
+
+* Laufzeitumgebung (.NET Common Language Runtime)
+* Beinhaltet Standard Funktionen und Klassen
+  * Windows Forms
+  * Windows Presentation Foundation (WPF)
+* ist zumindest teilweise auch unter Unix verfügbar
+* Kann aus der Powershell direkt angesprochen werden
+
+Note:
+Unter einer Laufzeitumgebung versteht man eine Ausführungsumgebung die die zur Laufzeit verfügbaren Vorraussetzungen eines Laufzeitsystems (wikipedia)
+
+Darin werden unter anderem definiert wie das
+
+* Lesen und schreiben von Dateien
+* Daten über Netzwerke transportieren
+* Ein- und Ausgabegeräte steuern
+* Daten verwalten
+* Sortieren und Suchen
+
+funktioniert
+
+Quelle: [wikipedia](https://de.wikipedia.org/wiki/Laufzeitumgebung)
+
+---
+
 ### Warum Powershell
 
 * Viele Aufgaben im täglichen IT Alltag können damit automatisiert werden
