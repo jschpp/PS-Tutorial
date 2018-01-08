@@ -95,10 +95,10 @@ $a.b # gibt 2 zurück
 
 ### Module
 
-* Eine Sammlung von Powershell Befehlen
+* Eine Sammlung von Powershell-Befehlen
 * Häufig an Windows Produkte oder Features gebunden
 * Können als Binärdatei vorliegen
-* Sind gut um Funktions-Sammlungen nach Funktionalität gebündelt abzulegen
+* Sind gut um, Funktions-Sammlungen nach Funktionalität gebündelt abzulegen
 * Werden seit Powershell v4 automatisch geladen
 
 ---
@@ -110,7 +110,7 @@ Get-Module # Zeigt alle aktuell geladen Module
 Get-Module -ListAvailable # Zeigt alle verfügbaren Module
 Get-Command -Module Name # Zeigt alle Befehle des Moduls
 Import-Module Name # Lädt ein Modul
-Remove-Module # Enlädt ein Modul
+Remove-Module # Entlädt ein Modul
 ```
 
 ---
@@ -151,11 +151,11 @@ Remove-Module # Enlädt ein Modul
 
 #### Arithmetische Operatoren
 
-* Werden verwendet um Dinge zu berechnen
+* Werden verwendet, um Dinge zu berechnen
 * `+`, `-`, `*`, `/`, `%`
 * Selbsterklärend in den meisten Fällen
 * `%` ist der Modulo Operator (Teilen mit Rest)
-* Funktionieren nicht nur mit Zahlen.
+* Funktionieren nicht nur mit Zahlen
 
 ```ps
 "Test" + "2" # "Test2"
@@ -169,7 +169,7 @@ Remove-Module # Enlädt ein Modul
 
 #### Zuweisungs-Operatoren
 
-* Werden verwendet um Variablen neue Werte zuzuweisen
+* Werden verwendet, um Variablen neue Werte zuzuweisen
 * `=`, `+=`, `-=`, `*=`, `/=`, `%=`
 * `$a += x` entspricht `$a = $a + x`
 * Ebenso selbsterklärend wie Arithmetische Operatoren
@@ -227,9 +227,9 @@ Es gibt zum `-contains` noch die Operatoren `-in`, `-notin`, `-notcontains`
 
 * Boolesche Operatoren
 * `-and`, `-or`, `-xor`, `-not`, `!`
-* Vor allem interessant in `if` Abfragen
-* Können auch auf nicht Boolesche Werte angewandt werden
-* `!` und `-not` machen das selbe
+* Vor allem interessant in `if`-Abfragen
+* Können auch auf Nicht-Boolesche Werte angewandt werden
+* `!` und `-not` bewirken das Selbe
 
 ---
 
@@ -246,7 +246,7 @@ Es gibt zum `-contains` noch die Operatoren `-in`, `-notin`, `-notcontains`
 
 #### Logische Operatoren 2
 
-Binär Operatoren
+Binäre Operatoren
 
 * `-bAND`, `-bOR`, `-bXOR`, `-bNOT`
 * Werden direkt auf binäre (oder andere) Zahlen angewandt
@@ -268,7 +268,7 @@ Microsoft ist sich in der Hilfe auch nicht einig ob die Binären Operatoren zu d
 
 * Bekannt aus dem `cmd`
 * `>`, `>>`, `2>`, `2>>`, `2>&1`
-* Leiten die Ausgabe in eine Datei statt sie in der Shell anzuzeigen
+* Leiten die Ausgabe in eine Datei, statt sie in der Shell anzuzeigen
 
 ---
 
@@ -304,4 +304,4 @@ $a = "Get-Process"
 * Ruft ein Skript im aktuellen Kontext auf
 * Wird von einem Leerzeichen gefolgt
   * `. ScriptName.ps1`
-* Alle Funktionen, Alias und Variablen die durch das Skript erstellt werden existieren danach auch im aktuellen Kontext
+* Alle Funktionen, Alias und Variablen, die durch das Skript erstellt werden, existieren danach auch im aktuellen Kontext

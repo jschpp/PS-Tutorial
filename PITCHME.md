@@ -1,6 +1,6 @@
 # Powershell Schulung
 
-### Eine Schulung über die Verwendung von Powershell in Windows Umgebungen
+### Eine Schulung über die Verwendung von Powershell in Windows-Umgebungen
 
 ---?include=md/intro.md
 

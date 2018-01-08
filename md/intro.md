@@ -58,9 +58,9 @@ Quelle: [wikipedia](https://de.wikipedia.org/wiki/Laufzeitumgebung)
 
 * Powershell Konsole
 * Powershell ISE (Integrated Scripting Enviroment)
-* Belieber Texteditor/IDE
+* Beliebiger Texteditor/IDE
 
-In diesem Kurs verwenden wir ausschließlich die ISE sowie die Native Konsole
+In diesem Kurs verwenden wir ausschließlich die ISE, sowie die Native Konsole
 
 ---
 
