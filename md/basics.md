@@ -142,7 +142,7 @@ Remove-Module # Entlädt ein Modul
 
 #### Ausgabe von `Get-PSDrive` (gekürzt)
 
-```ps
+```dos
 Provider    Name     Root
 --------    ----     ----
 Alias       Alias
