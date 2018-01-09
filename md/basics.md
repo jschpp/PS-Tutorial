@@ -10,6 +10,9 @@
 * Provider
 * Operatoren
 
+Note:
+Zur Nomenklatur: Wenn nicht anderes erwähnt werde ich keine Spezifischen Programmierbegriffe übersetzen
+
 ---
 
 ### Cmdlet
@@ -33,14 +36,15 @@ Get-Service
 * Sowohl bei Funktionen als auch bei cmdlets vorhanden
 * Können optional sein
 * Können sowohl namentlich als auch über ihre Position verwendet werden
+* Geben einer Funktion/cmdlet die Infos was getan werden muss
 
 Beispiel
 
 ```ps
-Get-Help Get-Service
-Get-Help -Name Get-Service
-Get-Help Get-Service -online
-Get-Help -Name Get-Service -full
+Get-Help # Öffnet die Hilfe
+Get-Help Get-Service # Öffnet die Hilfe für Get-Service
+Get-Help -Name Get-Service # Gleicher Effekt wie oben
+Get-Help Get-Service -online # Ruft die Online Hilfe ab
 ```
 
 ---
