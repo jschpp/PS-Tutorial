@@ -140,6 +140,22 @@ Remove-Module # Entlädt ein Modul
 
 ---
 
+#### Ausgabe von `Get-PSDrive` (gekürzt)
+
+| Provider    | Root                 | Name     |
+| ----------- | -------------------- | -------- |
+| Alias       |                      | Alias    |
+| FileSystem  | C:\                  | C        |
+| Certificate | \                    | Cert     |
+| Environment |                      | Env      |
+| Function    |                      | Function |
+| Registry    | HKEY\_CURRENT\_USER  | HKCU     |
+| Registry    | HKEY\_LOCAL\_MACHINE | HKLM     |
+| Variable    |                      | Variable |
+| WSMan       |                      | WSMan    |
+
+---
+
 ### Operators
 
 * Machen Dinge :)
